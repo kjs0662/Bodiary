@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3FB2EB51F965BF60026EB21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */; };
+		F3FB2EB71F965BF60026EB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EB61F965BF60026EB21 /* ViewController.swift */; };
+		F3FB2EBA1F965BF60026EB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EB81F965BF60026EB21 /* Main.storyboard */; };
+		F3FB2EBD1F965BF60026EB21 /* Bodiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EBB1F965BF60026EB21 /* Bodiary.xcdatamodeld */; };
+		F3FB2EBF1F965BF60026EB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */; };
+		F3FB2EC21F965BF60026EB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EC01F965BF60026EB21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3FB2EB11F965BF60026EB21 /* Bodiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3FB2EB61F965BF60026EB21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3FB2EB91F965BF60026EB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3FB2EBC1F965BF60026EB21 /* Bodiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bodiary.xcdatamodel; sourceTree = "<group>"; };
+		F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FB2EC11F965BF60026EB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3FB2EC31F965BF60026EB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FB2EAE1F965BF60026EB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3FB2EA81F965BF50026EB21 = {
+			isa = PBXGroup;
+			children = (
+				F3FB2EB31F965BF60026EB21 /* Bodiary */,
+				F3FB2EB21F965BF60026EB21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FB2EB21F965BF60026EB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB2EB11F965BF60026EB21 /* Bodiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FB2EB31F965BF60026EB21 /* Bodiary */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */,
+				F3FB2EB61F965BF60026EB21 /* ViewController.swift */,
+				F3FB2EB81F965BF60026EB21 /* Main.storyboard */,
+				F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */,
+				F3FB2EC01F965BF60026EB21 /* LaunchScreen.storyboard */,
+				F3FB2EC31F965BF60026EB21 /* Info.plist */,
+				F3FB2EBB1F965BF60026EB21 /* Bodiary.xcdatamodeld */,
+			);
+			path = Bodiary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FB2EB01F965BF60026EB21 /* Bodiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FB2EC61F965BF60026EB21 /* Build configuration list for PBXNativeTarget "Bodiary" */;
+			buildPhases = (
+				F3FB2EAD1F965BF60026EB21 /* Sources */,
+				F3FB2EAE1F965BF60026EB21 /* Frameworks */,
+				F3FB2EAF1F965BF60026EB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bodiary;
+			productName = Bodiary;
+			productReference = F3FB2EB11F965BF60026EB21 /* Bodiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FB2EA91F965BF50026EB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "김진선";
+				TargetAttributes = {
+					F3FB2EB01F965BF60026EB21 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3FB2EAC1F965BF50026EB21 /* Build configuration list for PBXProject "Bodiary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FB2EA81F965BF50026EB21;
+			productRefGroup = F3FB2EB21F965BF60026EB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FB2EB01F965BF60026EB21 /* Bodiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FB2EAF1F965BF60026EB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FB2EC21F965BF60026EB21 /* LaunchScreen.storyboard in Resources */,
+				F3FB2EBF1F965BF60026EB21 /* Assets.xcassets in Resources */,
+				F3FB2EBA1F965BF60026EB21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FB2EAD1F965BF60026EB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FB2EB71F965BF60026EB21 /* ViewController.swift in Sources */,
+				F3FB2EB51F965BF60026EB21 /* AppDelegate.swift in Sources */,
+				F3FB2EBD1F965BF60026EB21 /* Bodiary.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3FB2EB81F965BF60026EB21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FB2EB91F965BF60026EB21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3FB2EC01F965BF60026EB21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FB2EC11F965BF60026EB21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3FB2EC41F965BF60026EB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FB2EC51F965BF60026EB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FB2EC71F965BF60026EB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bodiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseonkim.Bodiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FB2EC81F965BF60026EB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bodiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinseonkim.Bodiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FB2EAC1F965BF50026EB21 /* Build configuration list for PBXProject "Bodiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB2EC41F965BF60026EB21 /* Debug */,
+				F3FB2EC51F965BF60026EB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FB2EC61F965BF60026EB21 /* Build configuration list for PBXNativeTarget "Bodiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB2EC71F965BF60026EB21 /* Debug */,
+				F3FB2EC81F965BF60026EB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3FB2EBB1F965BF60026EB21 /* Bodiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3FB2EBC1F965BF60026EB21 /* Bodiary.xcdatamodel */,
+			);
+			currentVersion = F3FB2EBC1F965BF60026EB21 /* Bodiary.xcdatamodel */;
+			path = Bodiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3FB2EA91F965BF50026EB21 /* Project object */;
+}
