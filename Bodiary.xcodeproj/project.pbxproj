@@ -7,23 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A935C11B2E32A509DCE266D /* Pods_Bodiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAADA90F51E86210E4CD653 /* Pods_Bodiary.framework */; };
+		F31531C21F977A0B00623393 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31531C11F977A0B00623393 /* UIViewExt.swift */; };
+		F31D76271F9E5C8500C55C60 /* CreateBodiaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D76261F9E5C8500C55C60 /* CreateBodiaryVC.swift */; };
+		F31D76291F9F0ECA00C55C60 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D76281F9F0ECA00C55C60 /* CircleImage.swift */; };
+		F31D762B1F9F2DB400C55C60 /* BodiaryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D762A1F9F2DB400C55C60 /* BodiaryDetailCell.swift */; };
+		F31D762F1F9FB0A200C55C60 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D762E1F9FB0A200C55C60 /* UIViewControllerExt.swift */; };
+		F321B0821F9B90B20012940A /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321B0811F9B90B20012940A /* CalendarCell.swift */; };
+		F327BE7C1FA720F200D0DEA3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE7B1FA720F200D0DEA3 /* CollectionViewCell.swift */; };
+		F327BE7E1FA7211700D0DEA3 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE7D1FA7211700D0DEA3 /* CollectionVC.swift */; };
+		F327BE801FA7619900D0DEA3 /* CollectionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE7F1FA7619900D0DEA3 /* CollectionDetailVC.swift */; };
+		F327BE831FA7623100D0DEA3 /* CollectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE821FA7623100D0DEA3 /* CollectionTableCell.swift */; };
+		F396F0F91FB3340400E3DC6D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F0F81FB3340400E3DC6D /* ShadowView.swift */; };
+		F39799CE1FA84CB100600C46 /* RoundedBoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */; };
+		F39799D01FA862F000600C46 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799CF1FA862F000600C46 /* ConfigurationVC.swift */; };
+		F39799FB1FADC36F00600C46 /* CreatePasscodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799FA1FADC36F00600C46 /* CreatePasscodeVC.swift */; };
+		F39799FD1FADF3EB00600C46 /* PasscodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799FC1FADF3EB00600C46 /* PasscodeCell.swift */; };
+		F39799FF1FADFADF00600C46 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799FE1FADFADF00600C46 /* CircleView.swift */; };
+		F3979A011FAE074200600C46 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3979A001FAE074200600C46 /* LaunchScreenVC.swift */; };
+		F3979A031FAE2AB800600C46 /* PasscodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3979A021FAE2AB800600C46 /* PasscodeVC.swift */; };
+		F3E6F7F31FA2309A008F1EEE /* ExerciseInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F21FA2309A008F1EEE /* ExerciseInfoCell.swift */; };
+		F3E6F7F71FA249C6008F1EEE /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F61FA249C6008F1EEE /* RoundedView.swift */; };
+		F3E6F7F91FA24A5F008F1EEE /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F81FA24A5F008F1EEE /* RoundedImage.swift */; };
+		F3E6F7FB1FA24AAF008F1EEE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7FA1FA24AAF008F1EEE /* RoundedButton.swift */; };
+		F3E6F7FF1FA2542B008F1EEE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7FE1FA2542B008F1EEE /* GradientView.swift */; };
 		F3FB2EB51F965BF60026EB21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */; };
-		F3FB2EB71F965BF60026EB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EB61F965BF60026EB21 /* ViewController.swift */; };
+		F3FB2EB71F965BF60026EB21 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EB61F965BF60026EB21 /* HomeVC.swift */; };
 		F3FB2EBA1F965BF60026EB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EB81F965BF60026EB21 /* Main.storyboard */; };
 		F3FB2EBD1F965BF60026EB21 /* Bodiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2EBB1F965BF60026EB21 /* Bodiary.xcdatamodeld */; };
 		F3FB2EBF1F965BF60026EB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */; };
 		F3FB2EC21F965BF60026EB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FB2EC01F965BF60026EB21 /* LaunchScreen.storyboard */; };
+		F3FB2ECC1F9661230026EB21 /* WeeklyGoalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2ECB1F9661230026EB21 /* WeeklyGoalsCell.swift */; };
+		F3FB2ECF1F966F8A0026EB21 /* SetWeeklyPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2ECE1F966F8A0026EB21 /* SetWeeklyPlanVC.swift */; };
+		F3FD715E1F9A761100EE4125 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD715D1F9A761100EE4125 /* CalendarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CAADA90F51E86210E4CD653 /* Pods_Bodiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bodiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02264361A0B38D5296029C6 /* Pods-Bodiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bodiary/Pods-Bodiary.debug.xcconfig"; sourceTree = "<group>"; };
+		E83CA59D94A0668989C80D93 /* Pods-Bodiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bodiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bodiary/Pods-Bodiary.release.xcconfig"; sourceTree = "<group>"; };
+		F31531C11F977A0B00623393 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		F31D76261F9E5C8500C55C60 /* CreateBodiaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBodiaryVC.swift; sourceTree = "<group>"; };
+		F31D76281F9F0ECA00C55C60 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F31D762A1F9F2DB400C55C60 /* BodiaryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodiaryDetailCell.swift; sourceTree = "<group>"; };
+		F31D762E1F9FB0A200C55C60 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		F321B0811F9B90B20012940A /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		F327BE7B1FA720F200D0DEA3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F327BE7D1FA7211700D0DEA3 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		F327BE7F1FA7619900D0DEA3 /* CollectionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailVC.swift; sourceTree = "<group>"; };
+		F327BE821FA7623100D0DEA3 /* CollectionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableCell.swift; sourceTree = "<group>"; };
+		F396F0F81FB3340400E3DC6D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F396F0FE1FB4D5F000E3DC6D /* Bodiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bodiary.entitlements; sourceTree = "<group>"; };
+		F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBoundsView.swift; sourceTree = "<group>"; };
+		F39799CF1FA862F000600C46 /* ConfigurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationVC.swift; sourceTree = "<group>"; };
+		F39799FA1FADC36F00600C46 /* CreatePasscodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasscodeVC.swift; sourceTree = "<group>"; };
+		F39799FC1FADF3EB00600C46 /* PasscodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeCell.swift; sourceTree = "<group>"; };
+		F39799FE1FADFADF00600C46 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		F3979A001FAE074200600C46 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		F3979A021FAE2AB800600C46 /* PasscodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeVC.swift; sourceTree = "<group>"; };
+		F3E6F7F21FA2309A008F1EEE /* ExerciseInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInfoCell.swift; sourceTree = "<group>"; };
+		F3E6F7F61FA249C6008F1EEE /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		F3E6F7F81FA24A5F008F1EEE /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		F3E6F7FA1FA24AAF008F1EEE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F3E6F7FE1FA2542B008F1EEE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F3FB2EB11F965BF60026EB21 /* Bodiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bodiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3FB2EB61F965BF60026EB21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3FB2EB61F965BF60026EB21 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F3FB2EB91F965BF60026EB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3FB2EBC1F965BF60026EB21 /* Bodiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bodiary.xcdatamodel; sourceTree = "<group>"; };
 		F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3FB2EC11F965BF60026EB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FB2EC31F965BF60026EB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FB2ECB1F9661230026EB21 /* WeeklyGoalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalsCell.swift; sourceTree = "<group>"; };
+		F3FB2ECE1F966F8A0026EB21 /* SetWeeklyPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeeklyPlanVC.swift; sourceTree = "<group>"; };
+		F3FD715D1F9A761100EE4125 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +88,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A935C11B2E32A509DCE266D /* Pods_Bodiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C941751DC0E88E8E2CE88D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02264361A0B38D5296029C6 /* Pods-Bodiary.debug.xcconfig */,
+				E83CA59D94A0668989C80D93 /* Pods-Bodiary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36DA3FAE7D6881D094BC3AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CAADA90F51E86210E4CD653 /* Pods_Bodiary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31531BE1F97704F00623393 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F31531C11F977A0B00623393 /* UIViewExt.swift */,
+				F31D762E1F9FB0A200C55C60 /* UIViewControllerExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F327BE811FA761E400D0DEA3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB2ECB1F9661230026EB21 /* WeeklyGoalsCell.swift */,
+				F321B0811F9B90B20012940A /* CalendarCell.swift */,
+				F31D762A1F9F2DB400C55C60 /* BodiaryDetailCell.swift */,
+				F3E6F7F21FA2309A008F1EEE /* ExerciseInfoCell.swift */,
+				F327BE7B1FA720F200D0DEA3 /* CollectionViewCell.swift */,
+				F327BE821FA7623100D0DEA3 /* CollectionTableCell.swift */,
+				F39799FC1FADF3EB00600C46 /* PasscodeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F3FB2EA81F965BF50026EB21 = {
 			isa = PBXGroup;
 			children = (
 				F3FB2EB31F965BF60026EB21 /* Bodiary */,
 				F3FB2EB21F965BF60026EB21 /* Products */,
+				0C941751DC0E88E8E2CE88D3 /* Pods */,
+				36DA3FAE7D6881D094BC3AFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +156,12 @@
 		F3FB2EB31F965BF60026EB21 /* Bodiary */ = {
 			isa = PBXGroup;
 			children = (
+				F396F0FE1FB4D5F000E3DC6D /* Bodiary.entitlements */,
+				F327BE811FA761E400D0DEA3 /* Cell */,
+				F31531BE1F97704F00623393 /* Extension */,
+				F3FB2ED01F966F8F0026EB21 /* View */,
+				F3FB2ECD1F9661260026EB21 /* Controller */,
 				F3FB2EB41F965BF60026EB21 /* AppDelegate.swift */,
-				F3FB2EB61F965BF60026EB21 /* ViewController.swift */,
 				F3FB2EB81F965BF60026EB21 /* Main.storyboard */,
 				F3FB2EBE1F965BF60026EB21 /* Assets.xcassets */,
 				F3FB2EC01F965BF60026EB21 /* LaunchScreen.storyboard */,
@@ -67,6 +171,38 @@
 			path = Bodiary;
 			sourceTree = "<group>";
 		};
+		F3FB2ECD1F9661260026EB21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3FB2EB61F965BF60026EB21 /* HomeVC.swift */,
+				F3FB2ECE1F966F8A0026EB21 /* SetWeeklyPlanVC.swift */,
+				F3FD715D1F9A761100EE4125 /* CalendarVC.swift */,
+				F31D76261F9E5C8500C55C60 /* CreateBodiaryVC.swift */,
+				F327BE7D1FA7211700D0DEA3 /* CollectionVC.swift */,
+				F327BE7F1FA7619900D0DEA3 /* CollectionDetailVC.swift */,
+				F39799CF1FA862F000600C46 /* ConfigurationVC.swift */,
+				F39799FA1FADC36F00600C46 /* CreatePasscodeVC.swift */,
+				F3979A001FAE074200600C46 /* LaunchScreenVC.swift */,
+				F3979A021FAE2AB800600C46 /* PasscodeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3FB2ED01F966F8F0026EB21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31D76281F9F0ECA00C55C60 /* CircleImage.swift */,
+				F3E6F7F61FA249C6008F1EEE /* RoundedView.swift */,
+				F3E6F7F81FA24A5F008F1EEE /* RoundedImage.swift */,
+				F3E6F7FA1FA24AAF008F1EEE /* RoundedButton.swift */,
+				F3E6F7FE1FA2542B008F1EEE /* GradientView.swift */,
+				F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */,
+				F39799FE1FADFADF00600C46 /* CircleView.swift */,
+				F396F0F81FB3340400E3DC6D /* ShadowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3FB2EC61F965BF60026EB21 /* Build configuration list for PBXNativeTarget "Bodiary" */;
 			buildPhases = (
+				579EEC224EF4003478873233 /* [CP] Check Pods Manifest.lock */,
 				F3FB2EAD1F965BF60026EB21 /* Sources */,
 				F3FB2EAE1F965BF60026EB21 /* Frameworks */,
 				F3FB2EAF1F965BF60026EB21 /* Resources */,
+				EC08B64479784B3145955A9F /* [CP] Embed Pods Frameworks */,
+				F645F55BB101AFBFE120D793 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +239,11 @@
 					F3FB2EB01F965BF60026EB21 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -134,14 +278,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		579EEC224EF4003478873233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bodiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC08B64479784B3145955A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bodiary/Pods-Bodiary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bodiary/Pods-Bodiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F645F55BB101AFBFE120D793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bodiary/Pods-Bodiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3FB2EAD1F965BF60026EB21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FB2EB71F965BF60026EB21 /* ViewController.swift in Sources */,
+				F31531C21F977A0B00623393 /* UIViewExt.swift in Sources */,
+				F3E6F7F91FA24A5F008F1EEE /* RoundedImage.swift in Sources */,
+				F3979A031FAE2AB800600C46 /* PasscodeVC.swift in Sources */,
+				F327BE831FA7623100D0DEA3 /* CollectionTableCell.swift in Sources */,
+				F39799FD1FADF3EB00600C46 /* PasscodeCell.swift in Sources */,
+				F3FB2ECF1F966F8A0026EB21 /* SetWeeklyPlanVC.swift in Sources */,
+				F3FB2EB71F965BF60026EB21 /* HomeVC.swift in Sources */,
+				F31D762B1F9F2DB400C55C60 /* BodiaryDetailCell.swift in Sources */,
+				F31D76271F9E5C8500C55C60 /* CreateBodiaryVC.swift in Sources */,
 				F3FB2EB51F965BF60026EB21 /* AppDelegate.swift in Sources */,
+				F321B0821F9B90B20012940A /* CalendarCell.swift in Sources */,
+				F3E6F7FF1FA2542B008F1EEE /* GradientView.swift in Sources */,
+				F3979A011FAE074200600C46 /* LaunchScreenVC.swift in Sources */,
+				F39799FB1FADC36F00600C46 /* CreatePasscodeVC.swift in Sources */,
+				F3E6F7F31FA2309A008F1EEE /* ExerciseInfoCell.swift in Sources */,
+				F327BE7C1FA720F200D0DEA3 /* CollectionViewCell.swift in Sources */,
+				F3E6F7F71FA249C6008F1EEE /* RoundedView.swift in Sources */,
+				F3FB2ECC1F9661230026EB21 /* WeeklyGoalsCell.swift in Sources */,
+				F3E6F7FB1FA24AAF008F1EEE /* RoundedButton.swift in Sources */,
+				F327BE7E1FA7211700D0DEA3 /* CollectionVC.swift in Sources */,
+				F39799FF1FADFADF00600C46 /* CircleView.swift in Sources */,
 				F3FB2EBD1F965BF60026EB21 /* Bodiary.xcdatamodeld in Sources */,
+				F39799D01FA862F000600C46 /* ConfigurationVC.swift in Sources */,
+				F31D762F1F9FB0A200C55C60 /* UIViewControllerExt.swift in Sources */,
+				F396F0F91FB3340400E3DC6D /* ShadowView.swift in Sources */,
+				F31D76291F9F0ECA00C55C60 /* CircleImage.swift in Sources */,
+				F3FD715E1F9A761100EE4125 /* CalendarVC.swift in Sources */,
+				F327BE801FA7619900D0DEA3 /* CollectionDetailVC.swift in Sources */,
+				F39799CE1FA84CB100600C46 /* RoundedBoundsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +500,11 @@
 		};
 		F3FB2EC71F965BF60026EB21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02264361A0B38D5296029C6 /* Pods-Bodiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7664AFA9ZS;
 				INFOPLIST_FILE = Bodiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinseonkim.Bodiary;
@@ -290,9 +516,11 @@
 		};
 		F3FB2EC81F965BF60026EB21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83CA59D94A0668989C80D93 /* Pods-Bodiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7664AFA9ZS;
 				INFOPLIST_FILE = Bodiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinseonkim.Bodiary;
