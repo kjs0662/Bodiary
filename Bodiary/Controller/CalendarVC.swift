@@ -190,7 +190,7 @@ class CalendarVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         
         if addBtn.currentImage != UIImage(named: "ic_delete") {
             let imagePicker = UIImagePickerController()
-            imagePicker.allowsEditing = true
+            imagePicker.allowsEditing = false
             imagePicker.delegate = self
 
             
@@ -253,7 +253,7 @@ class CalendarVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             guard let createBodiaryVC = storyboard?.instantiateViewController(withIdentifier: "CreateBodiaryVC") as? CreateBodiaryVC else { return }
             createBodiaryVC.initData(fromImage: image, forDate: selectedDate)
             picker.dismiss(animated: true, completion: {

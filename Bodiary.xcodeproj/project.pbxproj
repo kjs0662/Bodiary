@@ -18,6 +18,8 @@
 		F327BE7E1FA7211700D0DEA3 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE7D1FA7211700D0DEA3 /* CollectionVC.swift */; };
 		F327BE801FA7619900D0DEA3 /* CollectionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE7F1FA7619900D0DEA3 /* CollectionDetailVC.swift */; };
 		F327BE831FA7623100D0DEA3 /* CollectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327BE821FA7623100D0DEA3 /* CollectionTableCell.swift */; };
+		F34EF51B1FB9FD6C00ACDDA8 /* PasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F34EF51A1FB9FD6C00ACDDA8 /* PasscodeView.xib */; };
+		F34EF51D1FB9FD8400ACDDA8 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EF51C1FB9FD8400ACDDA8 /* PasscodeView.swift */; };
 		F396F0F91FB3340400E3DC6D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F0F81FB3340400E3DC6D /* ShadowView.swift */; };
 		F39799CE1FA84CB100600C46 /* RoundedBoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */; };
 		F39799D01FA862F000600C46 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799CF1FA862F000600C46 /* ConfigurationVC.swift */; };
@@ -25,7 +27,6 @@
 		F39799FD1FADF3EB00600C46 /* PasscodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799FC1FADF3EB00600C46 /* PasscodeCell.swift */; };
 		F39799FF1FADFADF00600C46 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39799FE1FADFADF00600C46 /* CircleView.swift */; };
 		F3979A011FAE074200600C46 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3979A001FAE074200600C46 /* LaunchScreenVC.swift */; };
-		F3979A031FAE2AB800600C46 /* PasscodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3979A021FAE2AB800600C46 /* PasscodeVC.swift */; };
 		F3E6F7F31FA2309A008F1EEE /* ExerciseInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F21FA2309A008F1EEE /* ExerciseInfoCell.swift */; };
 		F3E6F7F71FA249C6008F1EEE /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F61FA249C6008F1EEE /* RoundedView.swift */; };
 		F3E6F7F91FA24A5F008F1EEE /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6F7F81FA24A5F008F1EEE /* RoundedImage.swift */; };
@@ -56,6 +57,8 @@
 		F327BE7D1FA7211700D0DEA3 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		F327BE7F1FA7619900D0DEA3 /* CollectionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailVC.swift; sourceTree = "<group>"; };
 		F327BE821FA7623100D0DEA3 /* CollectionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableCell.swift; sourceTree = "<group>"; };
+		F34EF51A1FB9FD6C00ACDDA8 /* PasscodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeView.xib; sourceTree = "<group>"; };
+		F34EF51C1FB9FD8400ACDDA8 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		F396F0F81FB3340400E3DC6D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		F396F0FE1FB4D5F000E3DC6D /* Bodiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bodiary.entitlements; sourceTree = "<group>"; };
 		F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBoundsView.swift; sourceTree = "<group>"; };
@@ -64,7 +67,6 @@
 		F39799FC1FADF3EB00600C46 /* PasscodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeCell.swift; sourceTree = "<group>"; };
 		F39799FE1FADFADF00600C46 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F3979A001FAE074200600C46 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
-		F3979A021FAE2AB800600C46 /* PasscodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeVC.swift; sourceTree = "<group>"; };
 		F3E6F7F21FA2309A008F1EEE /* ExerciseInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInfoCell.swift; sourceTree = "<group>"; };
 		F3E6F7F61FA249C6008F1EEE /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		F3E6F7F81FA24A5F008F1EEE /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
@@ -183,7 +185,6 @@
 				F39799CF1FA862F000600C46 /* ConfigurationVC.swift */,
 				F39799FA1FADC36F00600C46 /* CreatePasscodeVC.swift */,
 				F3979A001FAE074200600C46 /* LaunchScreenVC.swift */,
-				F3979A021FAE2AB800600C46 /* PasscodeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +200,8 @@
 				F39799CD1FA84CB100600C46 /* RoundedBoundsView.swift */,
 				F39799FE1FADFADF00600C46 /* CircleView.swift */,
 				F396F0F81FB3340400E3DC6D /* ShadowView.swift */,
+				F34EF51A1FB9FD6C00ACDDA8 /* PasscodeView.xib */,
+				F34EF51C1FB9FD8400ACDDA8 /* PasscodeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				F3FB2EC21F965BF60026EB21 /* LaunchScreen.storyboard in Resources */,
 				F3FB2EBF1F965BF60026EB21 /* Assets.xcassets in Resources */,
+				F34EF51B1FB9FD6C00ACDDA8 /* PasscodeView.xib in Resources */,
 				F3FB2EBA1F965BF60026EB21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +343,6 @@
 			files = (
 				F31531C21F977A0B00623393 /* UIViewExt.swift in Sources */,
 				F3E6F7F91FA24A5F008F1EEE /* RoundedImage.swift in Sources */,
-				F3979A031FAE2AB800600C46 /* PasscodeVC.swift in Sources */,
 				F327BE831FA7623100D0DEA3 /* CollectionTableCell.swift in Sources */,
 				F39799FD1FADF3EB00600C46 /* PasscodeCell.swift in Sources */,
 				F3FB2ECF1F966F8A0026EB21 /* SetWeeklyPlanVC.swift in Sources */,
@@ -349,6 +352,7 @@
 				F3FB2EB51F965BF60026EB21 /* AppDelegate.swift in Sources */,
 				F321B0821F9B90B20012940A /* CalendarCell.swift in Sources */,
 				F3E6F7FF1FA2542B008F1EEE /* GradientView.swift in Sources */,
+				F34EF51D1FB9FD8400ACDDA8 /* PasscodeView.swift in Sources */,
 				F3979A011FAE074200600C46 /* LaunchScreenVC.swift in Sources */,
 				F39799FB1FADC36F00600C46 /* CreatePasscodeVC.swift in Sources */,
 				F3E6F7F31FA2309A008F1EEE /* ExerciseInfoCell.swift in Sources */,

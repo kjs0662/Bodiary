@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 
 let appDelegate = UIApplication.shared.delegate as? AppDelegate
+var dispatchPasscode:passcodeSet = .logOut
 
 class HomeVC: UIViewController {
     
@@ -21,8 +22,9 @@ class HomeVC: UIViewController {
     @IBOutlet weak var beforeDateLabel: UILabel!
     @IBOutlet weak var afterDateLabel: UILabel!
     
-    var goals : [WeeklyGoal] = []
-    var bodiaries : [Bodiary] = []
+    var goals:[WeeklyGoal] = []
+    var bodiaries:[Bodiary] = []
+    var passcode:[Passcode] = []
     var dateStringArray:[String] = []
     var dateArray:[Date] = []
     var sortedArray:[Date] = []
@@ -32,8 +34,6 @@ class HomeVC: UIViewController {
     
     
     let formatter = DateFormatter()
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +42,7 @@ class HomeVC: UIViewController {
         tableView.dataSource = self
         
         fetchCoreDataObjects()
+        fetchPasscode()
         if bodiaries.count > 0 {
             for i in 0 ..< self.bodiaries.count {
                 self.dateStringArray.append(self.bodiaries[i].date!)
@@ -49,13 +50,25 @@ class HomeVC: UIViewController {
             sortedByDate()
             setUpView()
         }
-
+        setPasscodeView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
 
+    }
+    
+    func setPasscodeView() {
+        if dispatchPasscode == .logOut {
+            if let passcodeView = Bundle.main.loadNibNamed("PasscodeView", owner: self, options: nil)?.first as? PasscodeView {
+                self.view.addSubview(passcodeView)
+            }
+        } else if dispatchPasscode == .logIn {
+            if let passcodeView = Bundle.main.loadNibNamed("PasscodeView", owner: self, options: nil)?.first as? PasscodeView {
+                passcodeView.removeFromSuperview()
+            }
+        }
     }
     
     func sortedByDate() {
@@ -70,7 +83,6 @@ class HomeVC: UIViewController {
             let date = formatter.string(from: i)
             sortedDateStringArray.append(date)
         }
-        print(sortedDateStringArray)
     }
     
     func fetchCoreDataObjects() {
@@ -237,6 +249,17 @@ extension HomeVC {
         } catch {
             print(error.localizedDescription)
             completion(false)
+        }
+    }
+    
+    func fetchPasscode() {
+        guard let managedContext = appDelegate?.persistentContainer.viewContext else { return }
+        let fetchRequest = NSFetchRequest<Passcode>(entityName: "Passcode")
+        do {
+            passcode = try managedContext.fetch(fetchRequest)
+            print("fetched passcode")
+        } catch {
+            debugPrint(error.localizedDescription)
         }
     }
 }

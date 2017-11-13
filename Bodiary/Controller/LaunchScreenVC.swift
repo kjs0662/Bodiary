@@ -7,20 +7,19 @@
 //
 
 import UIKit
-import CoreData
+
+enum passcodeSet {
+    case logIn
+    case logOut
+}
 
 class LaunchScreenVC: UIViewController {
     
-    var passcode:[Passcode] = []
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchPasscode()
-        if passcode.count == 0 {
-            perform(#selector(goToHomeVC), with: nil, afterDelay: 1)
-        } else {
-            perform(#selector(goToPasscodeVC), with: nil, afterDelay: 1)
-        }
+
+        perform(#selector(goToHomeVC), with: nil, afterDelay: 1)
+
 
         // Do any additional setup after loading the view.
     }
@@ -30,23 +29,5 @@ class LaunchScreenVC: UIViewController {
         present(homeVC, animated: false, completion: nil)
 
     }
-    
-    @objc func goToPasscodeVC() {
-        guard let passcodeVC = storyboard?.instantiateViewController(withIdentifier: "PasscodeVC") as? PasscodeVC else { return }
-        present(passcodeVC, animated: false, completion: nil)
-    }
-
-
 }
-extension LaunchScreenVC {
-    func fetchPasscode() {
-        guard let managedContext = appDelegate?.persistentContainer.viewContext else { return }
-        let fetchRequest = NSFetchRequest<Passcode>(entityName: "Passcode")
-        do {
-            passcode = try managedContext.fetch(fetchRequest)
-            print("fetched passcode")
-        } catch {
-            debugPrint(error.localizedDescription)
-        }
-    }
-}
+

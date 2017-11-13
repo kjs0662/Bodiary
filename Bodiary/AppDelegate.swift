@@ -13,7 +13,6 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var passcode:[Passcode] = []
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -27,25 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-
-        let appDelegate = UIApplication.shared.delegate as? AppDelegate
-        guard let managedContext = appDelegate?.persistentContainer.viewContext else { return }
-        let fetchRequest = NSFetchRequest<Passcode>(entityName: "Passcode")
-        
-        do {
-            passcode = try managedContext.fetch(fetchRequest)
-        } catch {
-            print("Can't fetch passcode")
-        }
-        
-        if passcode.count > 0 {
-            print(passcode[0])
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            guard let passcodeVC = storyboard.instantiateViewController(withIdentifier: "PasscodeVC") as? PasscodeVC else { return }
-            
-            window?.rootViewController = passcodeVC
-        }
-        
+        dispatchPasscode = .logOut
+        let passcodeView = Bundle.main.loadNibNamed("PasscodeView", owner: self, options: nil)?.first as? PasscodeView
+        window?.addSubview(passcodeView!)
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
